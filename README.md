@@ -33,6 +33,9 @@
 
 #### ACCESS:
     http://localhost:5050
+    
+    if you have access error try to install requirements.txt
+    pip install -r requirements.txt
  
 #### MAKE A SHORTCUT:
     touch ~/pgadmin4/pgadmin4

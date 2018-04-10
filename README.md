@@ -8,7 +8,7 @@
 # Install virtualenv run in terminal
     sudo apt-get install virtualenv python3-pip libpq-dev python3-dev
     cd
-    virtualenv -p python3 pgadmin4
+    virtualenv -p python3 pgadmin4 (pgadmin4 or whatever you want)
     cd pgadmin4
     source bin/activate
   
@@ -28,3 +28,22 @@
     STORAGE_DIR = os.path.join(DATA_DIR, 'storage')
     SERVER_MODE = False
   
+#### RUN:
+    python lib/python3.5/site-packages/pgadmin4/pgAdmin4.py
+
+#### ACCESS:
+    http://localhost:5050
+ 
+#### MAKE A SHORTCUT:
+    touch ~/pgadmin4/pgadmin4
+    chmod +x ~/pgadmin4/pgadmin4
+    subl ~/pgadmin4/pgadmin4
+    
+#### Write:
+    #!/bin/bash
+    cd ~/pgadmin4
+    source bin/activate
+    python lib/python3.5/site-packages/pgadmin4/pgAdmin4.py
+    
+#### Now you can just run it with a simpler command:
+    ~/pgadmin4/pgadmin4

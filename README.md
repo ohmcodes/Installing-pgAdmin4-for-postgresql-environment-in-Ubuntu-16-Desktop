@@ -1,4 +1,4 @@
-# Installing pgAdmin4 for postgresql environment in Ubuntu 16 Desktop
+# Installing pgAdmin4 for postgresql environment in Ubuntu Desktop
 ### Requirements
 * python3.5
 * virtualenv

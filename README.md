@@ -18,7 +18,7 @@
     
 ## Configuration
     
-    subl lib/python3.5/site-packages/pgadmin4/config_local.py
+    subl lib/python3.x/site-packages/pgadmin4/config_local.py
 #### Write:
     import os
     DATA_DIR = os.path.realpath(os.path.expanduser(u'~/.pgadmin/'))
@@ -29,7 +29,7 @@
     SERVER_MODE = False
   
 #### RUN:
-    python lib/python3.5/site-packages/pgadmin4/pgAdmin4.py
+    python lib/python3.x/site-packages/pgadmin4/pgAdmin4.py
 
 #### ACCESS:
     http://localhost:5050
@@ -46,7 +46,11 @@
     #!/bin/bash
     cd ~/pgadmin4
     source bin/activate
-    python lib/python3.5/site-packages/pgadmin4/pgAdmin4.py
+    python lib/python3.x/site-packages/pgadmin4/pgAdmin4.py
     
 #### Now you can just run it with a simpler command:
     ~/pgadmin4/pgadmin4
+    
+    Other option to make it more simplier
+    alias pgadmin4=~/pgadmin4/pgadmin4
+    then try to run just pgadmin4

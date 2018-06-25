@@ -54,3 +54,12 @@
     Other option to make it more simplier
     alias pgadmin4=~/pgadmin4/pgadmin4
     then try to run just pgadmin4
+    
+#### Creating /bash_aliases for permanent alias
+    touch ~/.bash_aliases
+    vim or subl ~/.bash_aliases
+    add lines
+    alias guipgadmin or whatever shortcut you want for terminal
+    alias pgadmin4=~/pgadmin4/pgadmin4
+    
+    

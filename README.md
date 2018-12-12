@@ -1,6 +1,6 @@
 # Installing pgAdmin4 for postgresql environment in Ubuntu Desktop
 ### Requirements
-* python3.5
+* python3.5 (theres an error on simplejson for version 3.6)
 * virtualenv
 * .whl file (postgres)
 * sublime (for text editor)
